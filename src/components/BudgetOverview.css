@@ -1,0 +1,89 @@
+.budget-overview {
+  background: #fff;
+  border: 1px solid #e0e3eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.budget-input-row {
+  margin-bottom: 1rem;
+}
+.budget-input-row label {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #1b1f29;
+  margin-bottom: 0.25rem;
+}
+.budget-field {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #e0e3eb;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 150ms ease;
+}
+.budget-field:focus-within {
+  border-color: #2563eb;
+}
+.budget-field .currency {
+  padding: 0.65rem 0.75rem;
+  background: #f9fbff;
+  color: #4b4f58;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border-right: 1px solid #e0e3eb;
+}
+.budget-field input {
+  flex: 1;
+  padding: 0.65rem 0.75rem;
+  border: none;
+  font-size: 0.9375rem;
+  color: #1b1f29;
+  outline: none;
+  background: transparent;
+}
+.budget-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.stat {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  background: #f9fbff;
+  border-radius: 8px;
+}
+.stat-label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4b4f58;
+  margin-bottom: 0.15rem;
+}
+.stat-value {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.stat-value.spent { color: #1b1f29; }
+.stat-value.under { color: #00d084; }
+.stat-value.over { color: #cf2e2e; }
+
+.progress-bar {
+  height: 6px;
+  background: #e0e3eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 3px;
+  transition: width 300ms ease;
+}
+.progress-fill.over {
+  background: #cf2e2e;
+}
