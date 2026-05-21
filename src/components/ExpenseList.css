@@ -1,0 +1,12 @@
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.expense-list-empty {
+  text-align: center;
+  padding: 2rem;
+  color: #4b4f58;
+  font-size: 0.9375rem;
+}
