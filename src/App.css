@@ -1,0 +1,22 @@
+/* Global reset and app-level styles */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-size:1rem;line-height:1.6;
+  color:#1b1f29;background:#f9fbff;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:#2563eb;text-decoration:none}
+button{cursor:pointer;font:inherit}
+input,select,textarea{font:inherit}
+
+.container{width:100%;max-width:600px;margin:0 auto;padding:0 1.5rem}
+.app-main{padding:1.5rem 0 2rem}
+
+.app-footer{
+  text-align:center;padding:1.5rem 0;
+  border-top:1px solid #e0e3eb;
+  color:#4b4f58;font-size:0.8125rem;
+}
