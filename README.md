@@ -67,6 +67,15 @@ Level-2-React-App/
       FilterBar.jsx / FilterBar.css
 ```
 
+## Live Deployment
+
+| Environment | URL |
+|---|---|
+| Cloudflare Pages | https://codveda-expenses.pages.dev |
+| Custom Domain | https://codveda-expenses.kristianhans.com |
+
+Deployed via **GitHub auto-deploy**: every push to `main` triggers a new Cloudflare Pages build automatically.
+
 ## Getting Started
 
 ```bash
@@ -81,6 +90,8 @@ Build for production:
 npm run build
 npm run preview
 ```
+
+Cloudflare Pages project name: `codveda-expenses`
 
 ## Accessibility
 
